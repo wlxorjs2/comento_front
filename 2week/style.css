@@ -16,7 +16,7 @@ body {
 }
 
 .calculator {
-    width: 340px; /* 계산기 전체 너비 조정 */
+    width: 340px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
