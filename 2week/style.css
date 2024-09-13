@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* {
+    list-style: none;
+    margin: 0 auto;
+    line-height: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 340px; /* 계산기 전체 너비 조정 */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.display {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    font-size: 36px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.button {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    height: 60px;
+    width: 80px;
+    line-height: 60px;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+.button.operator {
+    background-color: #ff9f00;
+    color: white;
+}
+
+.button.operator:hover {
+    background-color: #ff7f00;
+}
