@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알람 시계</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="clock">00:00:00</div>
+    <div id="alarm-container">
+        <h2>알람 설정</h2>
+        <input type="number" id="hour" placeholder="시 (0-23)" min="0" max="23">
+        <input type="number" id="minute" placeholder="분 (0-59)" min="0" max="59">
+        <button id="add-alarm">추가</button>
+        <div id="battery-widget-container">
+            <div id="battery-widget">
+                <div id="battery-level"></div>
+                <div id="battery-percentage">100%</div>
+            </div>
+        </div>
+        <div id="alarm-list"></div>
+        <button id="charge-button" style="display: none;">충전하기</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
