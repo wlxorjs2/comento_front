@@ -97,8 +97,3 @@ button:hover {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-
-.dark-mode {
-    background-color: black;
-    color: white;
-}
